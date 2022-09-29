@@ -25,7 +25,7 @@ class SignUpCustomerServiceTest {
             .password("1")
             .phone("01000000000")
             .build();
-        Customer c = service.sign(form);
+        Customer c = service.signUp(form);
         assertNotNull(c.getId());
         assertNotNull(c.getCreatedAt());
     }
