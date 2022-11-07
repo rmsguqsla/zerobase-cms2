@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AddProductCartForm {
-    private Long Id;
+    private Long id;
     private Long sellerId;
     private String name;
     private String description;
