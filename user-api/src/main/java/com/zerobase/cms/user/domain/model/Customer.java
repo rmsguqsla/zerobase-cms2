@@ -35,6 +35,7 @@ public class Customer extends BaseEntity{
     private String password;
     private String phone;
     private LocalDate birth;
+    private Integer Balance;
 
     private LocalDateTime verifyExpiredAt;
     private String verificationCode;
