@@ -24,7 +24,6 @@ public class Cart {
     public Cart(Long customerId) {
         this.customerId = customerId;
     }
-
     public void addMessage(String message) {
         messages.add(message);
     }
